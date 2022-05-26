@@ -47,10 +47,16 @@
       debug:
         msg: "inside handler1" 
 
-    # difference in command and shell module
+    # Difference in command and shell module
     # ad hoc commands (copy, setup)
     # documentation around user module
     # --syntax-check, -C (dry run)
+    # fetch, copy, synchronise,  blockinfile, lineinfile, state
+    # fork - 5, connect with 5 host at time and execute each task in parallet and once 1 tasks get completed on all 5 then move to next task
+    # serial - 2, complete entire play on 2 host first then move to next (example maintaiance of server under loadbalancer)
+    # 
+
+
 
 
 
